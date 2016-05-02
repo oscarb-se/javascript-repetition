@@ -112,7 +112,7 @@ var psg = {name: "PSG", playedInChampionsLeague: true, founded: "1951"};
 
 var soccerPlayer = {name: "Zlatan", originalClub: {name: "Malmö FF", playedInChampionsLeague: true, founded: 1901}, currentClub: psg};
 console.log("Året då Zlatans originalklubb startades " + soccerPlayer.originalClub.founded);
-console.log("Zlatans originalklubb heter  " + soccerPlayer["originalClub"]["founded"]);
+console.log("Zlatans originalklubb heter  " + soccerPlayer["originalClub"]["name"]);
 
 
 

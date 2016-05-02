@@ -53,11 +53,11 @@ favoriteThings.push("Teaching");
 
 // Exempel 6
 // Visa en array
-console.log(favoriteThings);
+console.log("Exempel 6: " + favoriteThings);
 
 // Hur loopar man igenom en array?`Kolla upp for-loop, for-in-loop samt for-of-loop
 
-// Sammanfattning: En samling saker (kan vara av olika typer) som vi kommer åt genom ett index (sakens position)
+// Sammanfattning: En samling saker (kan vara av olika typer) som vi kommer åt genom ett index (sakens position, ett heltal)
 
 /*
   Object
@@ -81,7 +81,7 @@ student.name = "Anton";
 student.favoriteTeam = "AIK";
 
 // Metod 3
-var anotherStudent = new Object();
+var anotherStudent = {};
 anotherStudent["name"] = "Oskar";
 anotherStudent["favoriteTeam"] = "HIF";
 

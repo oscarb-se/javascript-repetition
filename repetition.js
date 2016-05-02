@@ -125,7 +125,7 @@ console.log("Andra studenten i array: " + students[1]["name"]);
 // Array i array
 var favoriteGames = [["Super Mario Bros 1", "Duck Hunt"], ["Wii Sports Resort", "Zelda Twilight Princess"]];
 // Skriva ut första spelet i första listan
-console.log("Andra spelet i första listan" + favoriteGames[0][1]);
+console.log("Andra spelet i första listan: " + favoriteGames[0][1]);
 
 // Array i objekt
 var superMario64 = {title: "Super Mario 64", countries: ["Sverige", "USA"], characters: ["Mario", "Toad", "Peach"]};
